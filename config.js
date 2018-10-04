@@ -42,10 +42,12 @@ var config = {
       livenet: {
         provider: 'insight',
         url: 'https://insight.bitpay.com:443',
+        addressFormat: 'legacy',
       },
       testnet: {
         provider: 'insight',
         url: 'https://test-insight.bitpay.com:443',
+        addressFormat: 'legacy',
         // Multiple servers (in priority order)
         // url: ['http://a.b.c', 'https://test-insight.bitpay.com:443'],
       },
